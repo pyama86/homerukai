@@ -10,8 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "alexa-sdk": "^1.0.23",
-    "lodash": "^4.3.0",
-    "request-promise": "^2.0.1",
     "twit": "^2.2.3",
     "twitter": "^1.2.5"
   }

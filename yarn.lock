@@ -64,10 +64,6 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bluebird@^2.3:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
-
 bluebird@^3.1.5:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
@@ -267,7 +263,7 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-lodash@^4.0.0, lodash@^4.3.0, lodash@^4.5.0:
+lodash@^4.0.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -309,15 +305,7 @@ querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
-request-promise@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/request-promise/-/request-promise-2.0.1.tgz#acbd47b725e39372ede3174cf29c38d9ecf2b30d"
-  dependencies:
-    bluebird "^2.3"
-    lodash "^4.5.0"
-    request "^2.34"
-
-request@^2.34, request@^2.68.0, request@^2.72.0:
+request@^2.68.0, request@^2.72.0:
   version "2.83.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"
   dependencies:

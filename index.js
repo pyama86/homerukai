@@ -1,6 +1,5 @@
 'use strict';
 module.change_code = 1;
-var _ = require('lodash');
 var Alexa = require('alexa-sdk');
 var TwitterHelper = require('./twitter_helper');
 var APP_ID = undefined;
@@ -35,7 +34,7 @@ var handlers = {
         '後藤さん、尊敬する',
       ];
 
-      twitterHelper.postTweet(home[Math.floor(Math.random() * home.length)])
+      twitterHelper.postTweet(home[Math.floor(Math.random() * home.length)] + " #後藤さんを褒める会 #Alexa")
         .then(() => {
             this.emit(':tell', '後藤さんを適当に褒めときました');
         })

@@ -1,6 +1,5 @@
 'use strict';
 module.change_code = 1;
-var _ = require('lodash');
 var Twitter = require('twit');
 var CONSUMER_KEY = process.env.CONSUMER_KEY;
 var CONSUMER_SECRET = process.env.CONSUMER_SECRET;
